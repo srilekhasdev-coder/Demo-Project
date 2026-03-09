@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main',
                 credentialsId: 'Git-Token',
-                url: 'https://github.com/srilekhasdevops/devops-demo.git'
+                url: 'https://github.com/srilekhasdev-coder/Demo-Project.git'
             }
         }
 

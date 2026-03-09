@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                credentialsId: 'GIT',
+                credentialsId: 'Git-Token',
                 url: 'https://github.com/srilekhasdevops/devops-demo.git'
             }
         }

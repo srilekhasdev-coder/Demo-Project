@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yourdockerhubusername/devops-demo"
+        DOCKER_IMAGE = "srilekhasdevops/devops-demo"
     }
 
     stages {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/yourusername/devops-demo.git'
+                git 'https://github.com/srilekhasdevops/devops-demo.git'
             }
         }
 
